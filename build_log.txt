@@ -1,0 +1,225 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] quarkus-insurance-project                                          [pom]
+[[1;34mINFO[m] customer-service                                                   [jar]
+[[1;34mINFO[m] claims-service                                                     [jar]
+[[1;34mINFO[m] quote-service                                                      [jar]
+[[1;34mINFO[m] policy-service                                                     [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.insurance:quarkus-insurance-project[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding quarkus-insurance-project 1.0.0-SNAPSHOT                  [1/5][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mquarkus-insurance-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mquarkus-insurance-project[0;1m ---[m
+[[1;34mINFO[m] Type of the artifact is POM, skipping build goal
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mquarkus-insurance-project[0;1m ---[m
+[[1;34mINFO[m] Type of the artifact is POM, skipping build goal
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mquarkus-insurance-project[0;1m ---[m
+[[1;34mINFO[m] Type of the artifact is POM, skipping build goal
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mquarkus-insurance-project[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/pom.xml to /home/ubuntu/.m2/repository/com/insurance/quarkus-insurance-project/1.0.0-SNAPSHOT/quarkus-insurance-project-1.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.insurance:customer-service[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding customer-service 1.0.0-SNAPSHOT                           [2/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/quarkus-insurance-project/customer-service/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 2 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/quarkus-insurance-project/customer-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0:test[m [1m(default-test)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/quarkus-insurance-project/customer-service/target/customer-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 2150ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1998ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcustomer-service[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/customer-service/target/customer-service-1.0.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/com/insurance/customer-service/1.0.0-SNAPSHOT/customer-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/customer-service/pom.xml to /home/ubuntu/.m2/repository/com/insurance/customer-service/1.0.0-SNAPSHOT/customer-service-1.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.insurance:claims-service[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding claims-service 1.0.0-SNAPSHOT                             [3/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/quarkus-insurance-project/claims-service/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 7 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/quarkus-insurance-project/claims-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0:test[m [1m(default-test)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/quarkus-insurance-project/claims-service/target/claims-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1863ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1831ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mclaims-service[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/claims-service/target/claims-service-1.0.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/com/insurance/claims-service/1.0.0-SNAPSHOT/claims-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/claims-service/pom.xml to /home/ubuntu/.m2/repository/com/insurance/claims-service/1.0.0-SNAPSHOT/claims-service-1.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.insurance:quote-service[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding quote-service 1.0.0-SNAPSHOT                              [4/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/quarkus-insurance-project/quote-service/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 3 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/quarkus-insurance-project/quote-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0:test[m [1m(default-test)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/quarkus-insurance-project/quote-service/target/quote-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1896ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1712ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mquote-service[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/quote-service/target/quote-service-1.0.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/com/insurance/quote-service/1.0.0-SNAPSHOT/quote-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/quote-service/pom.xml to /home/ubuntu/.m2/repository/com/insurance/quote-service/1.0.0-SNAPSHOT/quote-service-1.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.insurance:policy-service[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding policy-service 1.0.0-SNAPSHOT                             [5/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/quarkus-insurance-project/policy-service/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 5 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:generate-code-tests[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/quarkus-insurance-project/policy-service/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0:test[m [1m(default-test)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/quarkus-insurance-project/policy-service/target/policy-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1916ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquarkus-maven-plugin:3.2.0.Final:build[m [1m(default)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] [1m[[0;36mio.quarkus.deployment.QuarkusAugmentor[0;1m][m Quarkus augmentation completed in 1963ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mpolicy-service[0;1m ---[m
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/policy-service/target/policy-service-1.0.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/com/insurance/policy-service/1.0.0-SNAPSHOT/policy-service-1.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/ubuntu/quarkus-insurance-project/policy-service/pom.xml to /home/ubuntu/.m2/repository/com/insurance/policy-service/1.0.0-SNAPSHOT/policy-service-1.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for quarkus-insurance-project 1.0.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] quarkus-insurance-project .......................... [1;32mSUCCESS[m [  0.124 s]
+[[1;34mINFO[m] customer-service ................................... [1;32mSUCCESS[m [  9.540 s]
+[[1;34mINFO[m] claims-service ..................................... [1;32mSUCCESS[m [  6.795 s]
+[[1;34mINFO[m] quote-service ...................................... [1;32mSUCCESS[m [  6.286 s]
+[[1;34mINFO[m] policy-service ..................................... [1;32mSUCCESS[m [  6.660 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  30.894 s
+[[1;34mINFO[m] Finished at: 2025-09-05T07:11:30-04:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

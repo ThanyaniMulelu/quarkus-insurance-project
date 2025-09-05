@@ -1,0 +1,8 @@
+com\insurance\claims\client\PolicyService.class
+com\insurance\claims\Claim.class
+com\insurance\claims\client\Policy.class
+com\insurance\claims\client\Customer.class
+META-INF\panache-archive.marker
+com\insurance\claims\client\CustomerService.class
+com\insurance\claims\ClaimStatus.class
+com\insurance\claims\ClaimResource.class

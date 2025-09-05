@@ -1,0 +1,6 @@
+com\insurance\policy\Policy.class
+com\insurance\policy\client\CustomerService.class
+META-INF\panache-archive.marker
+com\insurance\policy\client\Customer.class
+com\insurance\policy\PolicyStatus.class
+com\insurance\policy\PolicyResource.class

@@ -1,0 +1,4 @@
+com\insurance\quote\QuoteResource.class
+com\insurance\quote\Quote.class
+com\insurance\quote\QuoteStatus.class
+META-INF\panache-archive.marker
